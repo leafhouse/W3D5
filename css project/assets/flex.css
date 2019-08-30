@@ -19,7 +19,6 @@ ul li a, figcaption a {
 
 header > img {
   width: 100px;
-  float: left;
 }
 
 .ingredients-list {
@@ -63,15 +62,15 @@ ol li:nth-of-type(2n) {
 }
 
 h2 + .user_review {
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
 nav {
-    float: right;
+
 }
 
 nav ul li {
-    display: inline-block;
+  display:flex;
 }
 
 nav ul li a {
@@ -101,6 +100,8 @@ select {
     margin: 10px 0;
     width: 180px;
 }
+
+
 
 textarea {
     width: 350px;
